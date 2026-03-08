@@ -22,6 +22,7 @@ function App() {
     
 
 
+
     <Route element={<AdminLayout />} >                      
     <Route path= "/admin" element={<DashboardAdmin />} />
 

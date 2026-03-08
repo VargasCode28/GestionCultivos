@@ -6,6 +6,7 @@ const cultivoSchema = new mongoose.Schema({
   fechaSiembra: { type: Date, required: true },
   estado: { type: String, enum: ["Activo", "Cosechado", "Preparación"], default: "Activo" },
   parcela: { type: String },
+  usuario: {type: mongoose.Schema.Types.ObjectId, ref: "User", required: true }  //Ahora is hay relacion con usuario y guardado
 }, { timestamps: true });
 
 export default mongoose.model("Cultivo", cultivoSchema);
