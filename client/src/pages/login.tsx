@@ -4,15 +4,6 @@ import "/src/styles/login.css"
 
 
 
-
-
-
-
-
-
-
-
-
 // Un pequeño componente para el logo tecnológico SVG
 function Logo({className }) {
   return (
