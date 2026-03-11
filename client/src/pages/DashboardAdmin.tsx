@@ -4,6 +4,8 @@ import { registerUser } from "../services/adminService";
 function DashboardAdmin() {
   const [newUser, setNewUser] = useState({ email: "", password: "", rol: "user" });
 
+
+
   const handleRegister = async () => {
     try {
       await registerUser(newUser);
@@ -47,5 +49,7 @@ function DashboardAdmin() {
     </div>
   );
 }
+
+
 
 export default DashboardAdmin;

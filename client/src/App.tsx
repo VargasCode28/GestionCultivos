@@ -6,6 +6,7 @@ import AdminLayout from "./layouts/AdminLayout";
 import Login from "./pages/login";
 
 
+
 function App() {
 
   return (
@@ -15,8 +16,10 @@ function App() {
     <Route path="/" element={<Login/>} />
 
 
-    <Route element={<UserLayout />}>
+
+    <Route  element={<UserLayout />}>
       <Route path="/user" element={<DashboardUser />}  />
+
     </Route>
 
     

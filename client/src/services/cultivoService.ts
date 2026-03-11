@@ -13,6 +13,7 @@ export const createCultivo = async (cultivo: {
   parcela?: string;
 }) => {
 
+  
 
   const response = await api.post("/cultivos", cultivo);
   return response.data;
