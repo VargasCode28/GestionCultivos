@@ -86,10 +86,10 @@ function AdminLayout() {
           <div className="admin-profile">
             <div className="admin-info">
               <span className="admin-name">{adminName}</span>
-              <span className="admin-role">Super Administrador</span>
+              <span className="admin-role">: Super Admin</span>
             </div>
             <div className="admin-avatar-icon">
-              <UserCircle size={32} />
+              <UserCircle size={35} />
             </div>
           </div>
         </header>
